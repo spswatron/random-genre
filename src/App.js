@@ -4,7 +4,6 @@ import React, { useState } from 'react';
 
 function toRow(rowData, num) {
     const a = rowData['data'][num]
-    console.log(a)
     return(
         <div className={"genre row"}>
             <div className={"data column"}>{a['Characters']}</div>
