@@ -40,7 +40,7 @@ button {
   padding: 0.6rem;
   border-radius: 5px;
   margin: 1.24rem auto;
-  min-height: 2.85rem;
+  min-height: 3rem;
 }
 
 button:focus {
