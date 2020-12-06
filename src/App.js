@@ -23,7 +23,7 @@ const Header = <div className={"row"}>
 
 function Randoms (data) {
     return(
-        <div>
+        <div style ={{paddingBottom: '1.17em'}}>
             {Header}
             <div>{toRow(data, 0)}</div>
             <div>{toRow(data, 1)}</div>
