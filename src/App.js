@@ -40,7 +40,7 @@ function App() {
 const [genres, setGenres] = useState(0);
 
   function fetchGenres() {
-    fetch('https://server.ashley-chang.me/random_genre')
+    fetch('https://flask-server.server.ashley-chang.me/random_genre')
         .then(response => response.json())
         .then(data => setGenres(data));
   }
